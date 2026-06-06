@@ -1,0 +1,40 @@
+[submodule "forks/llama-models"]
+	path = forks/llama-models
+	url = https://github.com/oratis/llama-models.git
+	shallow = true
+[submodule "forks/Qwen3"]
+	path = forks/Qwen3
+	url = https://github.com/oratis/Qwen3.git
+	shallow = true
+[submodule "forks/DeepSeek-V3"]
+	path = forks/DeepSeek-V3
+	url = https://github.com/oratis/DeepSeek-V3.git
+	shallow = true
+[submodule "forks/DeepSeek-R1"]
+	path = forks/DeepSeek-R1
+	url = https://github.com/oratis/DeepSeek-R1.git
+	shallow = true
+[submodule "forks/mistral-inference"]
+	path = forks/mistral-inference
+	url = https://github.com/oratis/mistral-inference.git
+	shallow = true
+[submodule "forks/gemma_pytorch"]
+	path = forks/gemma_pytorch
+	url = https://github.com/oratis/gemma_pytorch.git
+	shallow = true
+[submodule "forks/GLM-4.5"]
+	path = forks/GLM-4.5
+	url = https://github.com/oratis/GLM-4.5.git
+	shallow = true
+[submodule "forks/OLMo"]
+	path = forks/OLMo
+	url = https://github.com/oratis/OLMo.git
+	shallow = true
+[submodule "forks/MiniMax-01"]
+	path = forks/MiniMax-01
+	url = https://github.com/oratis/MiniMax-01.git
+	shallow = true
+[submodule "forks/PhiCookBook"]
+	path = forks/PhiCookBook
+	url = https://github.com/oratis/PhiCookBook.git
+	shallow = true
