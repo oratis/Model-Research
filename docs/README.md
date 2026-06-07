@@ -39,3 +39,7 @@
 3. **稀疏 MoE**：[Mistral](04-mistral.md) → [Qwen](02-qwen.md) → [GLM](07-glm.md) → [DeepSeek](03-deepseek.md)
 4. **推理与对齐（RL）**：[DeepSeek-R1](03-deepseek.md) → [Qwen](02-qwen.md) → [OLMo](08-olmo.md)
 5. **数据与小模型**：[Phi](06-phi.md) → [Gemma](05-gemma.md)
+
+## 附：实操指南
+
+- [10-how-to-train.md](10-how-to-train.md) — **参考这些模型训练你自己的大模型**：路线分层（微调 / 小预训练 / 前沿）、六大要素、`6ND` 成本详算与三套预算、可执行起步包。

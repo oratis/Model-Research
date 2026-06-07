@@ -15,7 +15,8 @@ Model-Research/
 ├── README.md            # 本文件：模型目录 / 参数 / benchmark / 链接总表
 ├── docs/                # 逐模型深度分析（架构 + 源码走读 + 训练机制）
 │   ├── README.md        # 文档索引与推荐学习路线
-│   ├── 01-llama.md  ... 09-minimax.md
+│   ├── 01-llama.md  ...  09-minimax.md   # 9 个模型分析
+│   └── 10-how-to-train.md                # 附：动手训练方案与成本
 ├── forks/               # 各模型官方源码的 fork（git submodule，浅克隆）
 │   ├── llama-models/  Qwen3/  DeepSeek-V3/  DeepSeek-R1/  mistral-inference/
 │   └── gemma_pytorch/  PhiCookBook/  GLM-4.5/  OLMo/  MiniMax-01/
@@ -107,6 +108,17 @@ Model-Research/
 5. **数据与小模型**：[Phi](docs/06-phi.md)（数据为王）→ [Gemma](docs/05-gemma.md)（蒸馏）
 
 详见 [docs/README.md](docs/README.md)。
+
+---
+
+## 🛠️ 想自己动手训练？
+
+看 **[docs/10-how-to-train.md](docs/10-how-to-train.md)** —— 参考本仓库这些模型，**训练你自己的大模型**的完整方案与成本：
+
+- **路线分层**：A 微调（$几十~几千）/ B 从零小预训练（$几千~几百万）/ C 前沿（$百万~千万+）
+- **六大要素**：数据 · 算力 · 框架 · 配方 · 团队 · 时间
+- **成本详算**：`训练算力 ≈ 6ND` 公式 + 规模/成本对照表 + 三套完整预算
+- **起步包**：1 张 H100 + nanotron + FineWeb-Edu，几百美金跑通从预训练到对齐
 
 ---
 
